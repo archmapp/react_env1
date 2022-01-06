@@ -73,3 +73,12 @@ https://archmapp.github.io/html/太陽系2.html
 
 C:\Users\Owner\Desktop\Nodejs\Bulma\bulmaJS\src\sub\flex\Diagram.html
 https://archmapp2.github.io/bulmaJS/src/sub/flex/Diagram.html
+
+
+
+[React・Bulmaでの開発環境のサンプル]
+C:\Users\Owner\Desktop\Nodejs\React\codesandbox\cs1\react-bulma1
+https://archmapp.github.io/react_env1/
+git remote -v
+origin  https://github.com/archmapp/react_env1.git (fetch)
+origin  https://github.com/archmapp/react_env1.git (push)  
