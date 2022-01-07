@@ -114,7 +114,7 @@ function Top() {
 					</article>
 
 					<article className="panel mt-6">
-						<p className="panel-heading">github</p>
+						<p className="panel-heading">github と デモページ</p>
 
 						<div className="panel-block is-flex is-flex-direction-column is-justify-content-center">
 							<div className="panel-block is-flex is-flex-direction-column is-justify-content-center">
@@ -124,19 +124,31 @@ function Top() {
 									</div>
 									<div className="message-body has-background-white is-size-6 py-2 px-6">
 										<ul style={{ listStyle: 'disc' }}>
-											<li className="py-1 has-background-white">
-												githubぺーじは、
-												<a href="https://github.com/archmapp/react_env1.git">
-													{' '}
-													こちら{' '}
-												</a>
+											<li className="align-items py-1 has-background-white">
+												<span>githubページは、こちら：</span>
+												<button
+													className="button is-primary"
+													onClick={() =>
+														window.open(
+															'https://github.com/archmapp/react_env1.git'
+														)
+													}
+												>
+													githubページ
+												</button>
 											</li>
-											<li className="py-1 has-background-white">
-												そのため customize-cra, react-app-rewired をインストール
-											</li>
-											<li className="py-1 has-background-white">
-												"自作の shortJS をグローバル$$変数に設定する"
-												件を試してみる。
+											<li className="align-items py-1 has-background-white">
+												<span>デモページは、こちら：　</span>
+												<button
+													className="button is-primary"
+													onClick={() =>
+														window.open(
+															'https://archmapp.github.io/react_env1/'
+														)
+													}
+												>
+													デモ
+												</button>
 											</li>
 										</ul>
 									</div>
@@ -553,28 +565,6 @@ module.exports = {
 							</div>
 						</div>
 					</nav>
-
-					<div className="panel-block is-flex is-flex-direction-column is-justify-content-center">
-						<article className="message mb-0">
-							<div className="message-header mt-3 pb-1">
-								<p>開発環境１</p>
-							</div>
-							<div className="message-body has-background-white is-size-6 py-2 px-6">
-								<ul style={{ listStyle: 'disc' }}>
-									<li className="py-1 has-background-white">
-										create-react-app実行後 ejectせず、webpackを使う。
-									</li>
-									<li className="py-1 has-background-white">
-										そのため customize-cra, react-app-rewired をインストール
-									</li>
-									<li className="py-1 has-background-white">
-										"自作の shortJS をグローバル$$変数に設定する"
-										件を試してみる。
-									</li>
-								</ul>
-							</div>
-						</article>
-					</div>
 				</div>
 			</section>
 		</>

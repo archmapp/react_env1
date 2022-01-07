@@ -1,5 +1,9 @@
 /* https://web-designer.cman.jp/css_ref/abc_list/backface-visibility/ */
 
+.align-items {
+  display: inline-flex;
+  align-items: center;
+}
 body {
   /* background-color: #C8D0D2; */
   background: rgba(255, 248, 222, 0.1);
