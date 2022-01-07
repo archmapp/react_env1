@@ -1,3 +1,18 @@
+npm run build
+build/ => docs/ へコピー
+git add .
+git commit -m "開発1"
+git push origin main
+
+git remote -v
+origin  https://github.com/archmapp/react_env1.git (fetch)
+origin  https://github.com/archmapp/react_env1.git (push)
+
+
+
+
+
+
 https://github.com/archmapp/bulmaJSR
 https://gracious-carson-8848e2.netlify.app
 

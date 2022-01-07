@@ -77,8 +77,16 @@ https://archmapp2.github.io/bulmaJS/src/sub/flex/Diagram.html
 
 
 [React・Bulmaでの開発環境のサンプル]
-C:\Users\Owner\Desktop\Nodejs\React\codesandbox\cs1\react-bulma1
-https://archmapp.github.io/react_env1/
-git remote -v
-origin  https://github.com/archmapp/react_env1.git (fetch)
-origin  https://github.com/archmapp/react_env1.git (push)  
+  開発環境１
+  C:\Users\Owner\Desktop\Nodejs\React\codesandbox\cs1\react-bulma1
+  https://archmapp.github.io/react_env1/
+  git remote -v
+  origin  https://github.com/archmapp/react_env1.git (fetch)
+  origin  https://github.com/archmapp/react_env1.git (push)  
+
+  開発環境２
+  C:\Users\Owner\Desktop\Nodejs\React\codesandbox\cs1\react-bulma2
+  https://archmapp.github.io/react_env2/
+  git remote -v
+  origin  https://github.com/archmapp/react_env2.git (fetch)
+  origin  https://github.com/archmapp/react_env2.git (push)  

@@ -88,7 +88,7 @@ function Top() {
 						</li>
 					</ul>
 					<article className="panel is-info mt-6">
-						<p className="panel-heading">開発環境１・２の紹介</p>
+						<p className="panel-heading">開発環境１の紹介</p>
 
 						<div className="panel-block is-flex is-flex-direction-column is-justify-content-center">
 							<article className="message is-primary mb-0">
@@ -138,8 +138,8 @@ function Top() {
 												</button>
 											</li>
 											<li className="align-items py-1 has-background-white">
-												<span>デモページは、こちら：　</span>
-												<button
+												<span>このページがデモです。　</span>
+												{/* <button
 													className="button is-primary"
 													onClick={() =>
 														window.open(
@@ -148,7 +148,7 @@ function Top() {
 													}
 												>
 													デモ
-												</button>
+												</button> */}
 											</li>
 										</ul>
 									</div>
