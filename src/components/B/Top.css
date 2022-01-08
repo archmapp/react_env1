@@ -3,6 +3,17 @@
   align-items: center;
 }
 
+.alignItems {
+  display: flex;
+  align-items: center;
+}
+
+.alignItems2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #nav2 a {
   text-decoration: none;
 }

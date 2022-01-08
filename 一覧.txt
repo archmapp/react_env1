@@ -8,12 +8,31 @@ Bulma入門 javascript Handlebars Electron Angular React
 
 
 
-C:\Users\Owner\Desktop\Nodejs\Bulma\bulmaJSR\1\app\index.html
-https://www.archmapp.tech/
-第二版・Bulmaと共に！
-Bulma・React入門 javascript
-https://github.com/archmapp/bulmaJSR.git
+✖　C:\Users\Owner\Desktop\Nodejs\Bulma\bulmaJSR\1\app\index.html
+✖　https://www.archmapp.tech/
+✖　第二版・Bulmaと共に！
+✖　Bulma・React入門 javascript
+✖　https://github.com/archmapp/bulmaJSR.git
 
+C:\Users\Owner\Desktop\Nodejs\Bulma\bulmaJSR\netlify.txt
+https://bulmajsr.netlify.app
+https://www.archmapp.tech/
+
+[ドメインの設定]
+  お名前.com と Netlify　両方に設定
+
+
+    "netlify": "netlify deploy",
+    "netlify-prod": "netlify deploy --prod",
+
+
+npm run netlify
+npm run netlify-prod
+? Publish docs
+? Publish directory C:\Users\Owner\Desktop\Nodejs\Bulma\bulmaJSR\docs
+Deploy path: C:\Users\Owner\Desktop\Nodejs\Bulma\bulmaJSR\docs
+
+Website URL:       https://bulmajsr.netlify.app
 
 
 
@@ -60,9 +79,11 @@ C:\Users\Owner\Desktop\Nodejs\React\game\Space-Game-master
 Website URL: https://flashcard2.netlify.app
 
 太陽系
+C:\Users\Owner\Desktop\Nodejs\css\CSS\animations\太陽系.html
+C:\Users\Owner\Desktop\Nodejs\css\CSS\animations\太陽系2.html
 https://archmapp.github.io/html/
 https://archmapp.github.io/html/%E5%A4%AA%E9%99%BD%E7%B3%BB2.html
-https://archmapp.github.io/html/太陽系2.html
+https://archmapp.github.io/html/太陽太陽系 大系2.html
   git remote -v
   origin  https://github.com/archmapp/html.git (fetch)
   origin  https://github.com/archmapp/html.git (push)

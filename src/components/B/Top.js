@@ -7,6 +7,8 @@ import DDmenu from './contents/DDmenu'
 
 import Hero from '../../utils/Hero'
 
+import Solar from '../../assets/svg/Solar'
+
 import './Top.css'
 
 function Top() {
@@ -124,7 +126,7 @@ function Top() {
 									</div>
 									<div className="message-body has-background-white is-size-6 py-2 px-6">
 										<ul style={{ listStyle: 'disc' }}>
-											<li className="align-items py-1 has-background-white">
+											<li className="alignItems py-1 has-background-white">
 												<span>githubページは、こちら：</span>
 												<button
 													className="button is-primary"
@@ -137,8 +139,8 @@ function Top() {
 													githubページ
 												</button>
 											</li>
-											<li className="align-items py-1 has-background-white">
-												<span>このページがデモです。　</span>
+											<li className="alignItems py-1 has-background-white">
+												<span>このページがデモ版です。　</span>
 												{/* <button
 													className="button is-primary"
 													onClick={() =>
@@ -204,6 +206,12 @@ module.exports = {
 				<div className="container">
 					<div className="columns is-centered">
 						<div className="column is-10 message">
+							<b className="is-size-5">一服休憩</b>（MDN canvas）
+							<article className="message is-primary my-3 py-5 pl-3" id="b-r">
+								<div className="alignItems2">
+									<Solar />
+								</div>
+							</article>
 							<div className="message-header has-background-grey px-5 py-3 mb-4 is-size-5 has-text-weight-medium">
 								以下は、Bulmaの利用例です。
 							</div>
@@ -402,7 +410,6 @@ module.exports = {
 									</div>
 								</div>
 							</article>
-
 							<b className="is-size-5">modal</b>
 							<article
 								className="message is-primary mt-3 mb-6 py-5 pl-3"
@@ -500,7 +507,6 @@ module.exports = {
 								</div>
 							</nav>
 							{/* </article> */}
-
 							<article
 								className="message has-background-danger-light my-3 py-5 pl-3"
 								id="b-r"
