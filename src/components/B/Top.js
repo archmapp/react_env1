@@ -109,6 +109,10 @@ function Top() {
 											"自作の shortJS をグローバル$$変数に設定する"
 											件を試してみる。
 										</li>
+										<li className="py-1 has-background-white">
+											create-react-appは手軽に使えるので、今後この方法(customize-cra)で<br />どこまでカスタマイズできるか、
+											追求したい。
+										</li>
 									</ul>
 								</div>
 							</article>

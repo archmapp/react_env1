@@ -6,6 +6,7 @@ import QuickView from './utils/QuickView'
 import Nav from './components/Nav'
 import Main from './components/Main'
 import Foot from './components/Foot'
+import './App.css'
 
 // import $$ from './js/shortJS'
 

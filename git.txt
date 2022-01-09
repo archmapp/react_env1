@@ -1,7 +1,13 @@
+~~~~~~~~~~~~~
 npm run build
-build/ => docs/ へコピー
+~~~~~~~~~~~~~
+build/ => docs/ へコピー（重要）
 git add .
 git commit -m "開発1"
+初回
+    git branch -M main
+    git remote add origin https://github.com/archmapp/react_env2.git
+    git push -u origin main
 git push origin main
 
 git remote -v
